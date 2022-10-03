@@ -24,4 +24,8 @@ for (int i = 0; i < n; i++)
         l++;
     }
 }
-Console.WriteLine (text);
+void printArr()
+{
+    Console.WriteLine (string.Join("|", text2));
+}
+printArr();
